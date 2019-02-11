@@ -1,0 +1,17 @@
+CREATE DATABASE pruebaJava;
+
+CREATE TABLE modelos
+(id MEDIUMINT NOT NULL AUTO_INCREMENT,
+nombre VARCHAR(30));
+
+Create table marcas
+(id MEDIUMINT NOT NULL AUTO_INCREMENT,
+nombre VARCHAR(30));
+
+
+CREATE TABLE cotizaciones (
+id MEDIUMINT NOT NULL AUTO_INCREMENT,
+idmarca INT NOT NULL,
+idmodelo INT NOT NULL,
+ano INT NOT NULL,
+email VARCHAR(30));
